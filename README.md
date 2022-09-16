@@ -15,3 +15,10 @@ APi will be avalable on: http://127.0.0.1:8000/
 
 ## API Doc
 To have more information about the endpoints, access the API Documentation on http://127.0.0.1:8000/docs.
+
+## API Structure
+The API is built with FAST API:
+- main.py: file to run the PAI
+- schemas: API schemas to generate the documentation
+- core: API settings
+- api_v1: route to v1 endpoints
